@@ -15,6 +15,7 @@
 		844389121FB4FFBD008E9343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844389101FB4FFBD008E9343 /* LaunchScreen.storyboard */; };
 		8443891D1FB4FFBD008E9343 /* BinaryCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443891C1FB4FFBD008E9343 /* BinaryCounterTests.swift */; };
 		844389281FB4FFBD008E9343 /* BinaryCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844389271FB4FFBD008E9343 /* BinaryCounterUITests.swift */; };
+		844389361FB500FB008E9343 /* BinaryCounterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844389351FB500FB008E9343 /* BinaryCounterViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		844389231FB4FFBD008E9343 /* BinaryCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844389271FB4FFBD008E9343 /* BinaryCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterUITests.swift; sourceTree = "<group>"; };
 		844389291FB4FFBD008E9343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844389351FB500FB008E9343 /* BinaryCounterViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				844389041FB4FFBD008E9343 /* AppDelegate.swift */,
 				844389061FB4FFBD008E9343 /* ViewController.swift */,
 				844389081FB4FFBD008E9343 /* Main.storyboard */,
+				844389351FB500FB008E9343 /* BinaryCounterViewCell.swift */,
 				8443890E1FB4FFBD008E9343 /* Assets.xcassets */,
 				844389101FB4FFBD008E9343 /* LaunchScreen.storyboard */,
 				844389131FB4FFBD008E9343 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				8443890D1FB4FFBD008E9343 /* BinaryCounter.xcdatamodeld in Sources */,
 				844389071FB4FFBD008E9343 /* ViewController.swift in Sources */,
+				844389361FB500FB008E9343 /* BinaryCounterViewCell.swift in Sources */,
 				844389051FB4FFBD008E9343 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
